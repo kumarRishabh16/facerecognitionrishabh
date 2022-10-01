@@ -51,7 +51,11 @@ known_face_encodings = [
     himendra_face_encoding,
     inderkant_face_encoding,
     rajendra_face_encoding,
-
+    rakesh_face_encoding,
+    rishabh_face_encoding,
+    tanuj_face_encoding,
+    vivek_face_encoding
+    
 ]
 known_face_names = [
     "Arvind_sir",
