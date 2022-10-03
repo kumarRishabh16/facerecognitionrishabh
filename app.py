@@ -10,7 +10,7 @@ anirudh_image = face_recognition.load_image_file("Anirudh/anirudh.jpeg")
 anirudh_face_encoding = face_recognition.face_encodings(anirudh_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
-arvind_image = face_recognition.load_image_file("Arvind_sir/Arvindsir.JPEG")
+arvind_image = face_recognition.load_image_file("Arvind_sir/arvindsir.JPEG")
 arvind_face_encoding = face_recognition.face_encodings(arvind_image)[0]
 
 # Load a sample picture and learn how to recognize it.
