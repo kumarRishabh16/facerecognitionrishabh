@@ -14,7 +14,7 @@ arvind_image = face_recognition.load_image_file("Arvind_sir/Arvindsir.JPEG")
 arvind_face_encoding = face_recognition.face_encodings(arvind_image)[0]
 
 # Load a sample picture and learn how to recognize it.
-ashish_image = face_recognition.load_image_file("Anirudh/Anirudh.jpg")
+ashish_image = face_recognition.load_image_file("ashish/ashish.jpeg")
 ashish_face_encoding = face_recognition.face_encodings(ashish_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
@@ -29,16 +29,16 @@ inderkant_face_encoding = face_recognition.face_encodings(inderkant_image)[0]
 rajendra_image = face_recognition.load_image_file("rajendra/rajendra.jpeg")
 rajendra_face_encoding = face_recognition.face_encodings(rajendra_image)[0]
 
-rakesh_image = face_recognition.load_image_file("rakesh/rakesh.jpeg")
+rakesh_image = face_recognition.load_image_file("rakesh/rakesh.jng")
 rakesh_face_encoding = face_recognition.face_encodings(rakesh_image)[0]
 
 rishabh_image = face_recognition.load_image_file("rishabh/rishabh.jpeg")
 rishabh_face_encoding = face_recognition.face_encodings(rishabh_image)[0]
 
-tanuj_image = face_recognition.load_image_file("tanuj/tanuj.jpeg")
-tanuj_face_encoding = face_recognition.face_encodings(tanuj_image)[0]
+# tanuj_image = face_recognition.load_image_file("tanuj/tanuj.jpeg")
+# tanuj_face_encoding = face_recognition.face_encodings(tanuj_image)[0]
 
-vivek_image = face_recognition.load_image_file("vivek/vivek.jpeg")
+vivek_image = face_recognition.load_image_file("vivek/vivek.png")
 vivek_face_encoding = face_recognition.face_encodings(vivek_image)[0]
 
 
@@ -53,19 +53,18 @@ known_face_encodings = [
     rajendra_face_encoding,
     rakesh_face_encoding,
     rishabh_face_encoding,
-    tanuj_face_encoding,
     vivek_face_encoding
     
 ]
 known_face_names = [
-    "Arvind_sir",
     "Anirudh",
+    "Arvind_sir",
     "Ashish",
+    "Himendra",
     "inderkant",
-    "lalit",
-    "Mahaveer",
+    "rajendra",
+    "rakesh",
     "rishabh",
-    "tanuj",
     "vivek",
 ]
 # Initialize some variables
