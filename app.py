@@ -29,7 +29,7 @@ inderkant_face_encoding = face_recognition.face_encodings(inderkant_image)[0]
 rajendra_image = face_recognition.load_image_file("rajendra/rajendra.jpeg")
 rajendra_face_encoding = face_recognition.face_encodings(rajendra_image)[0]
 
-rakesh_image = face_recognition.load_image_file("rakesh/rakesh.jng")
+rakesh_image = face_recognition.load_image_file("rakesh/rakesh.png")
 rakesh_face_encoding = face_recognition.face_encodings(rakesh_image)[0]
 
 rishabh_image = face_recognition.load_image_file("rishabh/rishabh.jpeg")
